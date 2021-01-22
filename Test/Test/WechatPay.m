@@ -12,6 +12,7 @@
 
 - (void)play:(NSInteger)money{
     NSLog(@"sdadas");
+    NSLog(@"sadas");
 }
 
 
