@@ -4,8 +4,9 @@ Pod::Spec.new do |s|
   s.summary      = "A library for collection device info."
   s.homepage     = "https://github.com/lll3/TestSDK"
   s.license      = "MIT"
-  s.author             = { "lll" }
-  s.source       = { :git =>    "https://github.com/lll3/TestSDK/tree/main/Test", :tag => "#{s.version}" }
+  s.author       = "lll" 
+  s.source       = { :git =>"https://github.com/lll3/TestSDK.git", :tag => "#{s.version}" }
+ s.source_files = "Test"
   s.requires_arc = true
   s.ios.deployment_target = "9.0"
   s.source_files  = "TestSDKDemo/*.{h,m}"
