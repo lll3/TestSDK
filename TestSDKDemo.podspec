@@ -8,5 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git =>"https://github.com/lll3/TestSDK.git", :tag => "#{s.version}" }
   s.requires_arc = true
   s.ios.deployment_target = "9.0"
-  s.source_files  = "TestSDKDemo"
+  s.source_files  = "Test/Test/*.{h,m}"
+  s.frameworks =  "Foundation","UIKit"
+
 end
