@@ -6,8 +6,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = "lll" 
   s.source       = { :git =>"https://github.com/lll3/TestSDK.git", :tag => "#{s.version}" }
- s.source_files = "Test"
   s.requires_arc = true
   s.ios.deployment_target = "9.0"
-  s.source_files  = "TestSDKDemo/*.{h,m}"
+  s.source_files  = "TestSDKDemo/*", "*.{h,m}"
 end
