@@ -16,4 +16,3 @@ FOUNDATION_EXPORT const unsigned char TestVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Test/PublicHeader.h>
 
-#import<Test.WechatPay.h>
