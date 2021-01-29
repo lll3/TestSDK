@@ -349,6 +349,7 @@
 		E09A673525B674040002B7B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ARCHS = (
 					"$(ARCHS_STANDARD)",
 					armv7s,
@@ -387,6 +388,7 @@
 		E09A673625B674040002B7B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ARCHS = (
 					"$(ARCHS_STANDARD)",
 					armv7s,
